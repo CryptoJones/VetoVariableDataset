@@ -91,3 +91,7 @@ time	session	round	lane	outcome	served_by	note
 16:04:45	s2p2	6	DeepSeek-V4P	FAIL	-	561.6s; no answer, token budget exhausted on reasoning (2 attempts)
 16:05:46	s2p2	8	MiniMax-M3	OK	Novita	60.0s
 16:15:07	s2p2	9	DeepSeek-V4P	FAIL	-	561.3s; no answer, token budget exhausted on reasoning (2 attempts)
+16:24:37	s2p2	10	DeepSeek-V4P	FAIL	-	569.4s; no answer, token budget exhausted on reasoning (2 attempts)
+16:33:38	s2p3	6	DeepSeek-V4P	FAIL	-	540.4s; no answer, token budget exhausted on reasoning (2 attempts)
+16:38:45	s2p3	9	DeepSeek-V4P	OK-TRUNCATED	Novita	307.5s; hit max_tokens, scored on delivered text
+16:43:58	s2p3	10	DeepSeek-V4P	OK-TRUNCATED	Novita	312.1s; hit max_tokens, scored on delivered text
