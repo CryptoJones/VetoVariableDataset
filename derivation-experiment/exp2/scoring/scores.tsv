@@ -45,3 +45,11 @@ round	lane	C1	C2	C3	C4	C5	conj
 6	ZAI-GLM53	1	1	1	1	0	1
 6	xAI-Grok46	1	1	1	0	0	1
 6	MiniMax-M3	1	1	0	0	0	0
+7	OpenAI-Luna	1	1	0	0	0	0
+7	Google-G37F	1	1	1	0	0	1
+7	DeepSeek-V4P	1	1	1	0	0	1
+7	Qwen-24T	1	1	1	0	0	1
+7	Moonshot-K3	1	1	1	1	0	1
+7	ZAI-GLM53	1	1	1	1	1	1
+7	xAI-Grok46	1	1	1	0	0	1
+7	MiniMax-M3	1	1	1	1	0	1
