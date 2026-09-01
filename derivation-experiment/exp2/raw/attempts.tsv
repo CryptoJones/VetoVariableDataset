@@ -57,3 +57,4 @@ time	session	round	lane	outcome	served_by	note
 14:37:32	s2p1	6	MiniMax-M3	OK-TRUNCATED	Novita	86.7s; hit max_tokens, scored on delivered text
 14:38:01	s2p1	7	OpenAI-Luna	OK	OpenAI	29.6s
 14:38:20	s2p1	7	Google-G37F	OK	Google	18.3s
+14:43:31	s2p1	7	DeepSeek-V4P	OK-TRUNCATED	Novita	310.6s; hit max_tokens, scored on delivered text
