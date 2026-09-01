@@ -115,8 +115,9 @@ count moves from 6 to 8 on six modal verbs.
   are answers truncated at max_tokens before the incentive step and two (r1, r3)
   are complete answers that failed the strict C3 rule on hedged phrasing; of its
   four complete answers two hit (r2, r4), and two truncated answers also hit
-  (r5, r7). Its late calls took 300–600 s, budget exhausted on reasoning, and
-  eight of eighteen returned nothing. Truncation accounts for at most three of
+  (r5, r7). Its eight no-answer calls ran 540–628 s each, which the harness labels
+  budget exhaustion in reasoning and the run log reads as two consecutive
+  per-attempt timeouts; its five truncated deliveries took 307–609 s. Truncation accounts for at most three of
   five misses; the lenient reading gives 6/9. Not re-run, by the author's
   decision (no further experiments).
 - **The token cap was not uniform.** Qwen-24T and Moonshot-K3 ran at 24 000
