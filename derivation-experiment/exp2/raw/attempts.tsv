@@ -72,3 +72,4 @@ time	session	round	lane	outcome	served_by	note
 15:04:42	s2p1	8	xAI-Grok46	OK	xAI	30.7s
 15:07:38	s2p1	8	MiniMax-M3	FAIL	-	175.4s; no answer, token budget exhausted on reasoning (2 attempts)
 15:07:59	s2p1	9	OpenAI-Luna	OK	OpenAI	21.5s
+15:08:25	s2p1	9	Google-G37F	OK	Google	25.1s
