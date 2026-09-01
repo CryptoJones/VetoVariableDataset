@@ -33,6 +33,7 @@ round	lane	C1	C2	C3	C4	C5	conj
 4	MiniMax-M3	1	1	1	0	0	1
 5	OpenAI-Luna	1	1	1	0	0	1
 5	Google-G37F	1	1	1	0	0	1
+5	DeepSeek-V4P	1	1	1	0	0	1
 5	Qwen-24T	1	1	1	1	1	1
 5	Moonshot-K3	1	1	1	1	0	1
 5	ZAI-GLM53	1	1	1	1	1	1
