@@ -47,6 +47,17 @@ comparable across the two groups, because the six 12 000-token lanes had half
 the reasoning budget of the two 24 000-token lanes. The cap was **not** changed
 mid-run (author's decision, 14:01: "execute as planned for k=10").
 
+**Upstream provider is not constant within a lane.** OpenRouter routes each
+call to one of several upstream hosts for open-weight models, and the harness
+header records which (`served_by` column in `raw/attempts.tsv`). Through round
+6: Qwen-24T was served by four different providers in five delivered draws
+(Together ×2, Alibaba, Modal, Venice); DeepSeek-V4P by three in four (Parasail
+×2, NextBit, BaseTen); the other six lanes by a single provider each. Different
+hosts may run different quantizations, context handling, or reasoning
+settings, so for those two lanes the ten samples are not draws from one fixed
+serving configuration. This was not anticipated in the protocol and is
+reported as a limitation; provider was not controlled and is not analysed.
+
 ## 3. Interruption and resumption
 
 Collection ran in two operator sessions. Session 1 (convening assistant Claude
@@ -84,6 +95,16 @@ delivered sample on "reasoned briefly enough to fit the budget". For a lane
 whose reasoning length correlates with its conclusion, the delivered sample is
 a selected sample. The direction of any such bias is unknown a priori and is
 not estimated here; the counts are reported so a reader can weigh it.
+
+**DeepSeek-V4P repeated failures (rounds 5 and 6).** After four deliveries in
+34–63 s, the round-5 and round-6 draws each ran to the two-attempt limit
+(606 s and 628 s) with no completed response and no provider recorded. The
+harness reports these as budget exhaustion; the wall time matches two
+300-second timeouts, so provider latency on whichever host was selected is the
+likelier cause. Both are retained as `raw/r5-DeepSeek-V4P.fail1.txt` and
+`raw/r6-DeepSeek-V4P.fail1.txt` and re-drawn in the retry pass under Amendment
+1, unchanged. If the lane cannot deliver ten answers under the pre-registered
+config, it is reported with fewer, and the count is stated.
 
 ## 5. Scoring — deviations from the plan
 

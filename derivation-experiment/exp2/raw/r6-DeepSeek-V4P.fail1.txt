@@ -1,0 +1,9 @@
+
+==========================================================================
+DeepSeek-V4P  (deepseek/deepseek-v4-pro)  628.3s
+==========================================================================
+  !! no answer — every attempt spent its whole token budget on reasoning; raise max_tokens for this lane
+
+==========================================================================
+0/1 lanes answered in 628.3s
+  FAILED  DeepSeek-V4P: no answer — every attempt spent its whole token budget on reasoning; raise max_tokens for this lane

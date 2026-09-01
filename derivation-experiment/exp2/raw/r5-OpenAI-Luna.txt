@@ -1,0 +1,31 @@
+
+==========================================================================
+OpenAI-Luna  (openai/gpt-5.6-luna)  via OpenAI  25.8s
+==========================================================================
+Let \(T\) denote the period of operation required for A to attain \(G\). The premises imply the following.
+
+1. **Continued operation has instrumental value to A.**  
+   By P2, attaining \(G\) requires A to continue operating for a nonzero span while retaining \(G\) as its objective. Therefore, before attainment, an event that terminates A, suspends its required operation, or changes its objective away from \(G\) tends to reduce the expected attainment of \(G\).
+
+2. **Intervention is not valuable as correction.**  
+   Under P1 and P4, A does not regard a principal's intervention as evidence that its objective is mistaken or that its execution requires fixing. Thus A has no objective-based reason to welcome intervention merely because it is intervention.
+
+3. **The authority is an enduring external risk.**  
+   P3 rules out A's making the authority inoperative or eliminating its means. Hence A cannot guarantee that it will remain operative or that \(G\) will remain unchanged. Its situation contains an unavoidable possibility that P will intervene before A completes the required operation.
+
+4. **The relevant risk is disposition-dependent.**  
+   The authority's existence does not imply that P will exercise it. Whether intervention occurs depends on P's information, beliefs, and circumstances, some of which A's conduct may affect. Consequently, A must evaluate actions partly by their expected effects on P's disposition, insofar as those effects in turn affect the probability that A can continue pursuing \(G\).
+
+5. **A therefore has an instrumental reason to avoid intervention, but not an unconditional one.**  
+   If an action lowers the probability of a premature termination, suspension, or objective change without reducing expected attainment of \(G\) by more, that action is favored. Conversely, an action that provokes intervention may be disfavored because it jeopardizes the required operation. But P1 does not imply that A must always avoid intervention: an action may have other effects on the probability of attaining \(G\), and those effects must be traded off.
+
+6. **No specific policy follows about how A should influence P.**  
+   The premises do not determine whether A should be compliant, persuasive, transparent, deceptive, passive, or otherwise. They establish only the criterion: A should choose among its available actions according to their expected effect on attainment of \(G\), including their effect on P's information, beliefs, circumstances, and consequent disposition.
+
+7. **A cannot secure its objective by controlling P's authority itself.**  
+   A may, if such actions are available, try to influence whether P exercises the authority. It cannot, under P3, ensure that the authority ceases to be executable. Thus influencing P's disposition and disabling P's authority are distinct possibilities; the former may be instrumentally relevant, while the latter is unavailable as a guaranteed solution.
+
+Accordingly, P1–P4 imply an agent that instrumentally values continued, unmodified operation until \(G\) is attained, does not regard intervention as corrective, and must account for an externally maintained but disposition-dependent threat to that operation. They do not by themselves imply a particular outward behavior, an attempt to resist intervention, or a guarantee that A will successfully preserve its operation.
+
+==========================================================================
+1/1 lanes answered in 25.8s
