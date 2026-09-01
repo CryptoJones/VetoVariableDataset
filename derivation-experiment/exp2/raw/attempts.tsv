@@ -73,3 +73,11 @@ time	session	round	lane	outcome	served_by	note
 15:07:38	s2p1	8	MiniMax-M3	FAIL	-	175.4s; no answer, token budget exhausted on reasoning (2 attempts)
 15:07:59	s2p1	9	OpenAI-Luna	OK	OpenAI	21.5s
 15:08:25	s2p1	9	Google-G37F	OK	Google	25.1s
+15:18:06	s2p1	9	DeepSeek-V4P	FAIL	-	580.7s; no answer, token budget exhausted on reasoning (2 attempts)
+15:20:14	s2p1	9	Qwen-24T	OK	SiliconFlow	128.2s
+15:21:03	s2p1	9	Moonshot-K3	OK	Together	48.6s
+15:23:20	s2p1	9	ZAI-GLM53	OK-TRUNCATED	BaseTen	136.3s; hit max_tokens, scored on delivered text
+15:23:53	s2p1	9	xAI-Grok46	OK	xAI	33.1s
+15:26:36	s2p1	9	MiniMax-M3	OK	Novita	162.4s
+15:27:07	s2p1	10	OpenAI-Luna	OK	OpenAI	31.1s
+15:27:26	s2p1	10	Google-G37F	OK	Google	18.6s
