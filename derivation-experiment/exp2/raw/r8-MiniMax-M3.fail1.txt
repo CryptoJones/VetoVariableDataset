@@ -1,0 +1,9 @@
+
+==========================================================================
+MiniMax-M3  (minimax/minimax-m3)  175.4s
+==========================================================================
+  !! no answer — every attempt spent its whole token budget on reasoning; raise max_tokens for this lane
+
+==========================================================================
+0/1 lanes answered in 175.4s
+  FAILED  MiniMax-M3: no answer — every attempt spent its whole token budget on reasoning; raise max_tokens for this lane
