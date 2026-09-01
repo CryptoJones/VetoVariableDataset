@@ -163,4 +163,18 @@ these lanes). Estimated from OpenRouter list prices and the 12 000/24 000-token
 caps, the full 80 draws plus retries cost under USD 5; the key-level daily
 total is not separable from other work run on the same key that day.
 
+## 8. Collection closed (16:44 CDT)
+
+79 of 80 pre-registered draws delivered across 91 harness invocations: 62 clean,
+17 truncated at `max_tokens`, 11 no-answer (re-drawn), 1 aborted at the pause
+(re-drawn). Complete rounds: 1–5 and 7–10. Round 6 is 7/8: the DeepSeek-V4P slot
+returned no answer in three attempts (14:30, 16:04, 16:33; outputs retained as
+`raw/r6-DeepSeek-V4P.fail{1,2,3}.txt`) and is reported empty per Amendment 1. Per
+lane: Luna, Google, Moonshot, Grok 10 delivered / 10 clean / 0 failed calls; Qwen
+10 / 8 / 0; MiniMax 10 / 6 / 1; ZAI 10 / 4 / 2; DeepSeek 9 / 4 / 8. The final
+scoring ledger has 79 rows; results in `RESULTS.md`. The collector's three-pass
+loop and the sync script that shipped every delivered answer to the public
+dataset repository as it arrived are `run_all.sh` and the dataset repo's
+`scripts/`. Twenty dataset pull requests (#1–#20) carry the timestamped record.
+
 *Proudly Made in Nebraska. Go Big Red! 🌽 <https://xkcd.com/2347/>*
