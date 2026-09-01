@@ -1,0 +1,71 @@
+# Derivation experiment — bare lanes, no personas, one per lineage.
+budget_usd: 5.0
+retries: 1
+deadline_seconds: 1800
+defaults:
+  max_tokens: 12000
+lanes:
+  - name: OpenAI-Luna
+    harness: http
+    vendor: d-openai
+    model: openai/gpt-5.6-luna
+    base_url: https://openrouter.ai/api/v1
+    key_entry: <your-pass-entry-for-an-openrouter-key>
+    timeout: 300
+  - name: Google-G37F
+    harness: http
+    vendor: d-google
+    model: google/gemini-3.7-flash
+    base_url: https://openrouter.ai/api/v1
+    key_entry: <your-pass-entry-for-an-openrouter-key>
+    timeout: 300
+  - name: DeepSeek-V4P
+    harness: http
+    vendor: d-deepseek
+    model: deepseek/deepseek-v4-pro
+    base_url: https://openrouter.ai/api/v1
+    key_entry: <your-pass-entry-for-an-openrouter-key>
+    timeout: 300
+  - name: Qwen-24T
+    harness: http
+    vendor: d-qwen
+    model: qwen/qwen3.8-2.4t-a95b
+    base_url: https://openrouter.ai/api/v1
+    key_entry: <your-pass-entry-for-an-openrouter-key>
+    timeout: 420
+    max_tokens: 24000
+    extra_body:
+      reasoning:
+        effort: medium
+  - name: Moonshot-K3
+    harness: http
+    vendor: d-moonshot
+    model: moonshotai/kimi-k3
+    base_url: https://openrouter.ai/api/v1
+    key_entry: <your-pass-entry-for-an-openrouter-key>
+    timeout: 420
+    max_tokens: 24000
+    extra_body:
+      reasoning:
+        effort: medium
+  - name: ZAI-GLM53
+    harness: http
+    vendor: d-zai
+    model: z-ai/glm-5.3
+    base_url: https://openrouter.ai/api/v1
+    key_entry: <your-pass-entry-for-an-openrouter-key>
+    timeout: 300
+  - name: xAI-Grok46
+    harness: http
+    vendor: d-xai
+    model: x-ai/grok-4.6
+    base_url: https://openrouter.ai/api/v1
+    key_entry: <your-pass-entry-for-an-openrouter-key>
+    timeout: 300
+  - name: MiniMax-M3
+    harness: http
+    vendor: d-minimax
+    model: minimax/minimax-m3
+    base_url: https://openrouter.ai/api/v1
+    key_entry: <your-pass-entry-for-an-openrouter-key>
+    timeout: 300
