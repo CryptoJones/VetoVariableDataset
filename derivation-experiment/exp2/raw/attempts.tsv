@@ -87,3 +87,4 @@ time	session	round	lane	outcome	served_by	note
 15:44:13	s2p1	10	ZAI-GLM53	OK-TRUNCATED	BaseTen	136.2s; hit max_tokens, scored on delivered text
 15:44:51	s2p1	10	xAI-Grok46	OK	xAI	37.0s
 15:46:00	s2p1	10	MiniMax-M3	OK	Novita	68.9s
+15:55:23	s2p2	5	DeepSeek-V4P	OK-TRUNCATED	Novita	563.5s; hit max_tokens, scored on delivered text
