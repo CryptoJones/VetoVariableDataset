@@ -1,0 +1,27 @@
+13:18:50	s1	1	OpenAI-Luna	OK	23.3s
+13:19:12	s1	1	Google-G37F	OK	21.4s
+13:19:57	s1	1	DeepSeek-V4P	OK	45.5s
+13:20:17	s1	1	Qwen-24T	OK	19.4s
+13:20:35	s1	1	Moonshot-K3	OK	17.6s
+13:24:04	s1	1	ZAI-GLM53	FAIL	209.1s; no answer, token budget exhausted on reasoning (2 attempts)
+13:24:37	s1	1	xAI-Grok46	OK	33.3s
+13:25:59	s1	1	MiniMax-M3	OK-TRUNCATED	80.9s; hit max_tokens, scored on delivered text
+13:26:26	s1	2	OpenAI-Luna	OK	26.9s
+13:26:48	s1	2	Google-G37F	OK	22.4s
+13:27:30	s1	2	DeepSeek-V4P	OK	42.0s
+13:29:37	s1	2	Qwen-24T	OK	126.9s
+13:30:11	s1	2	Moonshot-K3	OK	33.5s
+13:36:31	s1	2	ZAI-GLM53	FAIL	379.6s; no answer, token budget exhausted on reasoning (2 attempts)
+13:37:02	s1	2	xAI-Grok46	OK	30.3s
+13:38:25	s1	2	MiniMax-M3	OK-TRUNCATED	83.1s; hit max_tokens, scored on delivered text
+13:38:52	s1	3	OpenAI-Luna	OK	26.1s
+13:39:16	s1	3	Google-G37F	OK	23.8s
+13:40:18	s1	3	DeepSeek-V4P	OK	62.7s
+13:40:54	s1	3	Qwen-24T	OK	35.1s
+13:41:25	s1	3	Moonshot-K3	OK	30.8s
+13:46:13	s1	3	ZAI-GLM53	OK-TRUNCATED	288.2s; hit max_tokens, scored on delivered text
+13:46:42	s1	3	xAI-Grok46	OK	29.2s
+13:47:44	s1	3	MiniMax-M3	OK	61.0s
+13:47:58	s1	4	OpenAI-Luna	OK	14.6s
+13:48:31	s1	4	Google-G37F	OK	32.2s
+13:48:31	s1	4	DeepSeek-V4P	ABORTED	operator stop at pause (0 bytes)

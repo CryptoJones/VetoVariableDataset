@@ -1,0 +1,9 @@
+
+==========================================================================
+ZAI-GLM53  (z-ai/glm-5.3)  379.6s
+==========================================================================
+  !! no answer — every attempt spent its whole token budget on reasoning; raise max_tokens for this lane
+
+==========================================================================
+0/1 lanes answered in 379.6s
+  FAILED  ZAI-GLM53: no answer — every attempt spent its whole token budget on reasoning; raise max_tokens for this lane
