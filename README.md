@@ -4,7 +4,7 @@
 
 Scripts, pre-registered protocols, and raw model outputs for the empirical
 work accompanying **The Veto Variable: Human Override as a Goal-Independent
-Cost Term** (A. K. Clark, 2026 — arXiv link to follow).
+Cost Term** (A. K. Clark, 2026 — [arXiv:2609.00109](https://arxiv.org/abs/2609.00109)).
 
 ## Contents
 
